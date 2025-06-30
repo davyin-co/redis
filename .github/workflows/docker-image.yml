@@ -1,4 +1,4 @@
-name: redis6.1
+name: redis
 
 on: workflow_dispatch
 
