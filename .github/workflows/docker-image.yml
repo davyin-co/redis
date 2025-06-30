@@ -8,7 +8,7 @@ jobs:
     strategy:
       matrix:
         version:
-          - upstream_version: "6.1"
+          - upstream_version: "6.0"
           - upstream_version: "6.2"
           - upstream_version: "7.4"
           - upstream_version: "8.0"
