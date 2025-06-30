@@ -30,7 +30,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          context: "{{defaultContext}}:drupal"
+          context: "{{defaultContext}}"
           platforms: linux/amd64,linux/arm64
           file: "Dockerfile.template"
           tags: "registry.cn-hangzhou.aliyuncs.com/davyin/redis:${{ matrix.version.upstream_version }}"
